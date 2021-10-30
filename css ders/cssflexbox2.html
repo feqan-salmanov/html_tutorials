@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+        .box{
+            width: 75%;
+            height: 600px;
+            background: cadetblue;
+            margin: 0 auto;
+            padding: 10px;
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-around;
+            border: solid black;
+            border-radius: 20px;
+            text-align: center;
+
+
+
+        }
+        .box1{
+            order: 3;
+            width: 200px ;
+            height: 200px;
+            background-color: chartreuse;
+            margin: 10px;
+            flex-grow: 1;
+        }
+        .box2{
+            order: 2;
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            margin: 10px;
+            flex-grow: 2;
+            align-self: center;
+        }
+        .box3{
+            order: 1;
+            width: 200px;
+            height: 200px;
+            background: brown;
+            margin: 10px;
+            flex-grow: 3;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="box1">
+            <h1> Article 1</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, iure.</p>
+        </div>
+        <div class="box2">
+            <h1> Article 2</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, nostrum.</p>
+        </div>
+        <div class="box3">
+            <h1> Artile 3</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, qui?</p>
+        </div>
+       
+
+    </div>
+</body>
+</html>
